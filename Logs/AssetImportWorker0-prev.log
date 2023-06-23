@@ -15,7 +15,7 @@ C:/Projects/Game Projects/War for the Planet/War-for-the-Planet
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50856
+50080
 Successfully changed project path to: C:/Projects/Game Projects/War for the Planet/War-for-the-Planet
 C:/Projects/Game Projects/War for the Planet/War-for-the-Planet
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Projects/Game Projects/War for the Planet/War-for-the-Planet
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4212] Host "[IP] 192.168.29.44 [Port] 0 [Flags] 2 [Guid] 2655541015 [EditorId] 2655541015 [Version] 1048832 [Id] WindowsEditor(7,MSI-GAMING) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9624] Host "[IP] 192.168.29.44 [Port] 0 [Flags] 2 [Guid] 3287719431 [EditorId] 3287719431 [Version] 1048832 [Id] WindowsEditor(7,MSI-GAMING) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4212] Host "[IP] 192.168.29.44 [Port] 0 [Flags] 2 [Guid] 2655541015 [EditorId] 2655541015 [Version] 1048832 [Id] WindowsEditor(7,MSI-GAMING) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9624] Host "[IP] 192.168.29.44 [Port] 0 [Flags] 2 [Guid] 3287719431 [EditorId] 3287719431 [Version] 1048832 [Id] WindowsEditor(7,MSI-GAMING) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 198.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 152.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -64,53 +64,298 @@ Direct3D:
     Vendor:          NVIDIA
     VRAM:            3950 MB
     App VRAM Budget: 3357 MB
-    Driver:          31.0.15.3141
+    Driver:          31.0.15.3161
 d3d12: Profiler is enabled, but stable power state is not. GPU timing errors are expected.
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010593 seconds.
+Registered in 0.008610 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 377 ms
+Android Extension - Scanning For ADB Devices 314 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 196.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 152.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.645 seconds
+- Completed reload, in  1.165 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1645ms)
-		BeginReloadAssembly (216ms)
+	ReloadAssembly (1165ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1275ms)
-			LoadAssemblies (212ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+		EndReloadAssembly (928ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (982ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (688ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (588ms)
+				InitializePlatformSupportModulesInManaged (380ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (196ms)
+				RefreshPlugins (152ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016946 seconds.
+Registered in 0.005591 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 186.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Reflection.Assembly:GetTypes <0x00085>
+	  at System.Reflection.Assembly:GetTypes <0x00019>
+	  at <GetTypesSafely>d__35:MoveNext <0x0008f>
+	  at Unity.VisualScripting.RuntimeCodebase:.cctor <0x005f6>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at Unity.VisualScripting.FullSerializer.fsSerializer:.cctor <0x0037a>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_mono_generic_class_init <0x0006a>
+	  at Unity.VisualScripting.SerializationOperation:.ctor <0x000a2>
+	  at Unity.VisualScripting.Serialization:StartOperation <0x000d2>
+	  at Unity.VisualScripting.Serialization:DeserializeInto <0x0009a>
+	  at Unity.VisualScripting.Serialization:Deserialize <0x0005a>
+	  at Unity.VisualScripting.EditorPrefMetadata:Load <0x00102>
+	  at Unity.VisualScripting.PluginConfigurationItemMetadata:.ctor <0x004e2>
+	  at Unity.VisualScripting.EditorPrefMetadata:.ctor <0x0002a>
+	  at <>c__DisplayClass244_0:<EditorPref>b__0 <0x0005a>
+	  at Unity.VisualScripting.Metadata:Dig <0x0034a>
+	  at Unity.VisualScripting.Metadata:EditorPref <0x00142>
+	  at Unity.VisualScripting.PluginConfiguration:LoadEditorPrefs <0x0036a>
+	  at Unity.VisualScripting.PluginConfiguration:Load <0x00022>
+	  at Unity.VisualScripting.PluginConfiguration:Initialize <0x00052>
+	  at Unity.VisualScripting.PluginContainer:Initialize <0x022ce>
+	  at Unity.VisualScripting.PluginContainer:InitializeOnLoad <0x00032>
+	  at Unity.VisualScripting.VSUsageUtility:DoInitializeOnLoadCalls <0x00102>
+	  at Unity.VisualScripting.VSUsageUtility:set_isVisualScriptingUsed <0x000da>
+	  at Unity.VisualScripting.VSUsageUtility:CheckAndSetIsVisualScriptingUsed <0x000b2>
+	  at Unity.VisualScripting.VSUsageUtility:.cctor <0x00032>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x00069>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x0003a>
+	  at UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes <0x005f2>
+	  at <Module>:runtime_invoke_void_object <0x00087>
+=================================================================
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Projects\Game Projects\War for the Planet\War-for-the-Planet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  3.345 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3346ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2926ms)
+			LoadAssemblies (308ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (600ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (1858ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (187ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (1160ms)
+				ProcessInitializeOnLoadMethodAttributes (314ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6658 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (3.0 MB). Loaded Objects now: 7138.
+Memory consumption went from 339.8 MB to 336.8 MB.
+Total: 19.052600 ms (FindLiveObjects: 1.041600 ms CreateObjectMapping: 0.726400 ms MarkObjects: 16.123400 ms  DeleteObjects: 1.159200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 823.093034 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_Moss_Normal.tif
+  artifactKey: Guid(2114e87dbc5872042860b1588217688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_Moss_Normal.tif using Guid(2114e87dbc5872042860b1588217688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d81f32274f66db05005f2df2058f85') in 0.188612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.041052 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_Dry_BaseColor.tif
+  artifactKey: Guid(7e6fff2112f33d748962082012d11cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_Dry_BaseColor.tif using Guid(7e6fff2112f33d748962082012d11cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad8b323fef14f9fa451afee112293f4') in 0.048989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.092978 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Details/Grass_C_Thickness.tif
+  artifactKey: Guid(5ac60e8e8739b1f4daeb70e1c662df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Details/Grass_C_Thickness.tif using Guid(5ac60e8e8739b1f4daeb70e1c662df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61297fd687f39a3bd1348a280fb2aec0') in 0.030935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.667826 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Details/GrassDry_BaseColor.tif
+  artifactKey: Guid(3785d5abd275c7147a10aa4bf8720df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Details/GrassDry_BaseColor.tif using Guid(3785d5abd275c7147a10aa4bf8720df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0be37f198696930d47e10a8196e4b3e') in 0.026619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.194100 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Details/GrassDry_Normal.tif
+  artifactKey: Guid(17cc5677d5a413843b9003e53261c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Details/GrassDry_Normal.tif using Guid(17cc5677d5a413843b9003e53261c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd668b22e04bb28422ccaeb4ca84f11d0') in 0.029582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.181814 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Details/Heather_A_BaseColor.tif
+  artifactKey: Guid(deb3a5099f3fc81408def7e176a5f5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Details/Heather_A_BaseColor.tif using Guid(deb3a5099f3fc81408def7e176a5f5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a6f8c01cc789f7b74929f4fcf6a393') in 0.031036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.714276 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Details/Grass_C_BaseColor.tif
+  artifactKey: Guid(696617d4dc7551d4cb58b7f30d022160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Details/Grass_C_BaseColor.tif using Guid(696617d4dc7551d4cb58b7f30d022160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5cd8ad42d73d93e4c3c8d3d139254e') in 0.034311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116253 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Details/Grass_A_Thickness.tif
+  artifactKey: Guid(5bdbe53dce2414e458937234dce49479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Details/Grass_A_Thickness.tif using Guid(5bdbe53dce2414e458937234dce49479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20db05418d7390a89bf1d35d7058a04b') in 0.032986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.019051 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Details/Grass_A_BaseColor.tif
+  artifactKey: Guid(9bf68c6e5059e7549b60e91ca11987a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Details/Grass_A_BaseColor.tif using Guid(9bf68c6e5059e7549b60e91ca11987a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527ee528dd9f22c2fde6fec147049e41') in 0.027786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017196 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bd378f00c3f7341c21d4f56494e4fc') in 1.716958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070a843eb6dd235b7406773877adf223') in 0.052989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad62f9ac8e0a60cea3a6245bfbc0cfc2') in 0.040303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 602.121673 seconds.
+  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain07_Brush.brush
+  artifactKey: Guid(6f360df90c5a57042ba4b09cb3249ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain07_Brush.brush using Guid(6f360df90c5a57042ba4b09cb3249ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f7a6e7c10a19720ec9a7882412f245') in 0.043101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 115.252883 seconds.
+  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Flatmountain01_Brush.brush
+  artifactKey: Guid(5ca44fb774755d14f93870431e58a1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Flatmountain01_Brush.brush using Guid(5ca44fb774755d14f93870431e58a1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63a81bad9a53dad740338f8b7996226') in 0.049339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 428.007642 seconds.
+  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon02_Brush.brush
+  artifactKey: Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon02_Brush.brush using Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86b4b5449357624f1048f595bd84f83') in 0.036085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.926622 seconds.
+  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain05_Brush.brush
+  artifactKey: Guid(c18cd5b317ff2af479fe5b47336cc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain05_Brush.brush using Guid(c18cd5b317ff2af479fe5b47336cc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016c48b092a4dc4417114423d3563f2d') in 0.051649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 598.001986 seconds.
+  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon05_Brush.brush
+  artifactKey: Guid(ceb297a70ecfb74479647a7e0e433265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon05_Brush.brush using Guid(ceb297a70ecfb74479647a7e0e433265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de84a8bfb8fa363013bfa1c8bb9ac684') in 0.051161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 843.793325 seconds.
+  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain01_Brush.brush
+  artifactKey: Guid(87bcc148df475664181f323cf3b45e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain01_Brush.brush using Guid(87bcc148df475664181f323cf3b45e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a487bb84c5718154cf6e4cf994a8b73f') in 0.049197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 367.105267 seconds.
+  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain08_Brush.brush
+  artifactKey: Guid(f3ac69de155752e498f0f9864e41e7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain08_Brush.brush using Guid(f3ac69de155752e498f0f9864e41e7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372151fb8adf804fc7b54e521ae6c0aa') in 0.031388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.030831 seconds.
+  path: Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge02_Brush.brush
+  artifactKey: Guid(5203e2a4f3ccc3548bde5beb3ca4bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge02_Brush.brush using Guid(5203e2a4f3ccc3548bde5beb3ca4bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8894921d568c55ab35d674530bbb146') in 0.027839 seconds 
